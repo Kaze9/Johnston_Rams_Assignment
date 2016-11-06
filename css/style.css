@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Oswald:300,400');
+
+body {
+	color: white;
+	background-color: #B3B3B3;
+	width: 100vw;
+	height: 100vh;
+}
+
+body a {
+	text-decoration: none;
+}
+
+.overlay, .number {
+	margin-left: 3%;
+}
+
+.copy, .design {
+	margin-left: 2%;
+}
+
+a:link, a:visited {
+	color: inherit;
+}
+
+h1, h2, h3, nav {
+	font-family: 'Alfa Slab One', serif;
+	font-weight: normal;
+	letter-spacing: 0.05rem;
+	transition: 1s;
+}
+
+h1 {
+	font-size: 5vw;
+	/*font-size: 3rem;*/
+}
+
+h2 {
+	font-size: 3.5vw;
+	color: #A6242F;
+}
+
+h3 {
+	font-size: 30vw;
+	float: left;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 150%;
+	line-height: 30px;
+	clear: left;
+	padding-top: 3%;
+}
+
+nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 20vh;
+	opacity: 0.5;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 25%, rgba(0,0,0,0.78) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0.78) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0.78) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#c7000000',GradientType=0 ); /* IE6-9 */
+	transition: 0.75s;
+}
+
+nav:hover {
+	opacity: 1;
+}
+
+nav ul {
+	position: absolute;
+	bottom: 10px;
+	width: 90%;
+	margin: 0 auto ;
+	text-align: center;
+	transition: 0.75s;
+}
+
+/*nav ul:hover {
+	padding-top: 15%;
+}*/
+
+nav ul li{
+	position: relative;
+	text-align: center;
+	display: inline;
+	height: inherit;
+	padding: 0 1.5vw;
+	font-size: 4vw;
+	vertical-align: text-bottom;
+	transition: font 1s;
+}
+
+nav ul li a {
+	padding: 15 15 0;
+}
+
+nav ul li:hover {
+	color:  #A6242F;
+}
+
+.overlay {
+	margin-top: 4%;
+	margin-bottom: 8%;
+	width: 88%;
+
+}
+
+.overlay h2 {
+	margin-top: 1%;
+}
+
+.design {
+	margin-top: 2vh;
+	float: left;
+	margin-right: 4px;
+}
+
+.rule {
+	width: 100%;
+	height: 85vh;
+}
+
+.rule .is {
+	float: left;
+	margin-top: 2vh
+	/*vertical-align: baseline;*/
+}
+
+.copy {
+	float: left;
+	width: 63%;
+}
+
+#rule1 {
+	background-color: #B3B3B3;
+	background-image: url('../img/1.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule2 {
+	background-color: #B3B3B3;
+	background-image: url('../img/2.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule3 {
+	background-color: #B3B3B3;
+	background-image: url('../img/3.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule4 {
+	background-color: #B3B3B3;
+	background-image: url('../img/4.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule5 {
+	background-color: #B3B3B3;
+	background-image: url('../img/5.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule6 {
+	background-color: #B3B3B3;
+	background-image: url('../img/6.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule7 {
+	background-color: #B3B3B3;
+	background-image: url('../img/7.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule8 {
+	background-color: #B3B3B3;
+	background-image: url('../img/8.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule9 {
+	background-color: #B3B3B3;
+	background-image: url('../img/9.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule10 {
+	background-color: #B3B3B3;
+	background-image: url('../img/10.jpg');
+	background-blend-mode: luminosity;
+	background-position: center bottom;
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+#rule10 #copy10 {
+	width: 57%;
+}
+
+#is10, #is9, #is8, #is4 {
+	margin-left: 2%;
+}
